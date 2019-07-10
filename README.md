@@ -23,7 +23,7 @@ $ cd ~/Code/
 ```
 
 ```
-$ git clone https://github.com/OriginalJef/AtlasScientificI2C.git
+$ git clone https://github.com/Aethon-Labs/AtlasScientificI2C.git
 
 ```
 
