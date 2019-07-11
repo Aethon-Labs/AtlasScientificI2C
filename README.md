@@ -1,27 +1,7 @@
-POOLBOT
+SutroBOT
 ==================================
 
-	AtlasScientificI2C/
-	├── src/
-	│	├── i2c.py
-	└── README.md
-
-
 ## Info
-
-- Contributor: **Jef Roosens**
-- Source: [Atlas Scientific](https://github.com/AtlasScientific/Raspberry-Pi-sample-code/blob/master/i2c.py)
-
-I did reform this script to make it work in Python3
-
-## Deploy
-
-### Clone
-
-```
-$ cd ~/Code/
-```
-
 ```
 $ git clone https://github.com/Aethon-Labs/AtlasScientificI2C.git
 
@@ -55,5 +35,14 @@ $ cd AtlacScientificI2C/src
 ```
 
 ```
-$ python3 app.py
+$ python3 main.py
+```
+# Setup Soracom Connectivity:
+```
+sudo ./soracom_setup.sh
+```
+
+# Setup Crontab for repeated measurements:
+```
+* * * * * python3 /home/pi/Desktop/AtlasScientificI2C/main.py >> /home/pi/Desktop/AtlasScientificI2C/log.txt 
 ```
