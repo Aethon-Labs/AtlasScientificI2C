@@ -27,11 +27,16 @@ $ sudo apt-get upgrade
 ```
 $ sudo apt-get install python-smbus i2c-tools
 ```
+## Install python dependencies
+
+```
+$ pip3 install -r requirements.txt
+```
 
 ## Execute script on Raspberry Pi
 
 ```
-$ cd AtlacScientificI2C/src
+$ cd AtlacScientificI2C
 ```
 
 ```
