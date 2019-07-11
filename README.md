@@ -79,6 +79,16 @@ $ python3 main.py
 ```
 * * * * * python3 /home/pi/Desktop/AtlasScientificI2C/main.py >> /home/pi/Desktop/AtlasScientificI2C/log.txt 
 ```
+### To view the data pushed by the T3 tentacle shield:
+- Goto Soracom dashboard.
+- Select the Sim card that is being used to send the data out
+- Go to harvest data option
+- You should see results similar to the ones shown below:
+![](images/data1.png)
+![](images/data2.png)
+
+
+
 # TODO
 - Hook up UI to main.py
 ![](images/sutro-ui.jpg)
