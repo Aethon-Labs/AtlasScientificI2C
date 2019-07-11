@@ -1,5 +1,6 @@
 SutroBOT
 ==================================
+![](images/sutro-test-device.jpg)
 
 ## Info
 ```
@@ -47,6 +48,7 @@ In the terminal, type
 ```
 sudo i2cdetect -y 1
 ```
+![](images/i2cdetect.jpg)
 
 Default I2C Addresses:
 ```
@@ -79,4 +81,6 @@ $ python3 main.py
 ```
 # TODO
 - Hook up UI to main.py
+![](images/sutro-ui.jpg)
+
 - Update readme for setting up 3.5 inch LCD
