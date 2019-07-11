@@ -46,3 +46,6 @@ sudo ./soracom_setup.sh
 ```
 * * * * * python3 /home/pi/Desktop/AtlasScientificI2C/main.py >> /home/pi/Desktop/AtlasScientificI2C/log.txt 
 ```
+#TODO
+- Hook up UI to main.py
+- Update readme for setting up 3.5 inch LCD
