@@ -49,13 +49,14 @@ sudo i2cdetect -y 1
 ```
 
 Default I2C Addresses:
-
+```
 EZO DO: 97 (0x61)
 EZO ORP: 98 (0x62)
 EZO pH: 99 (0x63)
 EZO EC: 100 (0x64)
 EZO RTD: 102 (0x66)
 EZO PMP: 103 (0x67)
+```
 
 ### Setup Soracom Connectivity:
 ```
